@@ -1,0 +1,15 @@
+1) Import data to excel using UTF-8 or unicode
+2) ISBN13 is good
+3) Title is good
+4) Clean Author: (In this order)
+	Replace all ". " to "." (execute twice)
+	Replace all "." to ". "
+	Repalce all " ," to ","
+	Replace all ", " to ","
+	Repalce all " ." to "."
+	Replace "Alexandre Dumas PÃ.. re" to "Alexandre Dumas PÃ..re"
+	Split Author column to 5 Author columns, deliminated by commas
+	Fill all empty Author values to NULL
+5) Delete all tuples with Author1 as NULL
+
+
